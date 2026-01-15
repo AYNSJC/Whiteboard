@@ -20,10 +20,10 @@ public class DrawMesh : MonoBehaviour {
 		Vector2[] uv = new Vector2[4];
 		int[] triangles = new int[6];
 
-		vertices[0] = new Vector3(-1, 1);
-		vertices[1] = new Vector3(-1, -1);
-		vertices[2] = new Vector3(1, -1);
-		vertices[3] = new Vector3(1, 1);
+		vertices[0] = new Vector3(-0.5f, 0.5f);
+		vertices[1] = new Vector3(-0.5f, -0.5f);
+		vertices[2] = new Vector3(0.5f, -0.5f);
+		vertices[3] = new Vector3(0.5f, 0.5f);
 
 		uv[0] = Vector2.zero;
 		uv[1] = Vector2.zero;
